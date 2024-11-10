@@ -129,7 +129,7 @@ if __name__ == "__main__":
             speak(f"Your IP address is {ip}")
 
         elif "wikipedia" in query:
-            speak("Searching Wikipedia...")
+            speak("Searching Wikipedia....")
             query = query.replace("wikipedia", "")
             results = wikipedia.summary(query, sentences=2)
             speak("According to Wikipedia")
